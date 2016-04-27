@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		977547D11CCFC1350013ED3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977547D01CCFC1350013ED3B /* AppDelegate.swift */; };
+		977547D31CCFC1350013ED3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977547D21CCFC1350013ED3B /* ViewController.swift */; };
+		977547D61CCFC1350013ED3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977547D41CCFC1350013ED3B /* Main.storyboard */; };
+		977547D81CCFC1350013ED3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977547D71CCFC1350013ED3B /* Assets.xcassets */; };
+		977547DB1CCFC1350013ED3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977547D91CCFC1350013ED3B /* LaunchScreen.storyboard */; };
+		977547E61CCFC1360013ED3B /* WclEmitterButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977547E51CCFC1360013ED3B /* WclEmitterButtonTests.swift */; };
+		977547F11CCFC1360013ED3B /* WclEmitterButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977547F01CCFC1360013ED3B /* WclEmitterButtonUITests.swift */; };
+		977548021CCFC1920013ED3B /* WclEmitterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977548011CCFC1920013ED3B /* WclEmitterButton.swift */; };
+		977548041CCFC3670013ED3B /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 977548031CCFC3670013ED3B /* Sparkle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		977547E21CCFC1360013ED3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977547C51CCFC1350013ED3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977547CC1CCFC1350013ED3B;
+			remoteInfo = WclEmitterButton;
+		};
+		977547ED1CCFC1360013ED3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977547C51CCFC1350013ED3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977547CC1CCFC1350013ED3B;
+			remoteInfo = WclEmitterButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		977547CD1CCFC1350013ED3B /* WclEmitterButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WclEmitterButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		977547D01CCFC1350013ED3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		977547D21CCFC1350013ED3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		977547D51CCFC1350013ED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		977547D71CCFC1350013ED3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		977547DA1CCFC1350013ED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		977547DC1CCFC1350013ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977547E11CCFC1360013ED3B /* WclEmitterButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WclEmitterButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977547E51CCFC1360013ED3B /* WclEmitterButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WclEmitterButtonTests.swift; sourceTree = "<group>"; };
+		977547E71CCFC1360013ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977547EC1CCFC1360013ED3B /* WclEmitterButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WclEmitterButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977547F01CCFC1360013ED3B /* WclEmitterButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WclEmitterButtonUITests.swift; sourceTree = "<group>"; };
+		977547F21CCFC1360013ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977548011CCFC1920013ED3B /* WclEmitterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WclEmitterButton.swift; sourceTree = "<group>"; };
+		977548031CCFC3670013ED3B /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977547CA1CCFC1350013ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547DE1CCFC1360013ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547E91CCFC1360013ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977547C41CCFC1350013ED3B = {
+			isa = PBXGroup;
+			children = (
+				977547CF1CCFC1350013ED3B /* WclEmitterButton */,
+				977547E41CCFC1360013ED3B /* WclEmitterButtonTests */,
+				977547EF1CCFC1360013ED3B /* WclEmitterButtonUITests */,
+				977547CE1CCFC1350013ED3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		977547CE1CCFC1350013ED3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977547CD1CCFC1350013ED3B /* WclEmitterButton.app */,
+				977547E11CCFC1360013ED3B /* WclEmitterButtonTests.xctest */,
+				977547EC1CCFC1360013ED3B /* WclEmitterButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977547CF1CCFC1350013ED3B /* WclEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				977547FE1CCFC16C0013ED3B /* WclEmitterButton */,
+				977547D01CCFC1350013ED3B /* AppDelegate.swift */,
+				977547D21CCFC1350013ED3B /* ViewController.swift */,
+				977547D41CCFC1350013ED3B /* Main.storyboard */,
+				977547D71CCFC1350013ED3B /* Assets.xcassets */,
+				977547D91CCFC1350013ED3B /* LaunchScreen.storyboard */,
+				977547DC1CCFC1350013ED3B /* Info.plist */,
+			);
+			path = WclEmitterButton;
+			sourceTree = "<group>";
+		};
+		977547E41CCFC1360013ED3B /* WclEmitterButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				977547E51CCFC1360013ED3B /* WclEmitterButtonTests.swift */,
+				977547E71CCFC1360013ED3B /* Info.plist */,
+			);
+			path = WclEmitterButtonTests;
+			sourceTree = "<group>";
+		};
+		977547EF1CCFC1360013ED3B /* WclEmitterButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				977547F01CCFC1360013ED3B /* WclEmitterButtonUITests.swift */,
+				977547F21CCFC1360013ED3B /* Info.plist */,
+			);
+			path = WclEmitterButtonUITests;
+			sourceTree = "<group>";
+		};
+		977547FE1CCFC16C0013ED3B /* WclEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				977548031CCFC3670013ED3B /* Sparkle.png */,
+				977548011CCFC1920013ED3B /* WclEmitterButton.swift */,
+			);
+			path = WclEmitterButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977547CC1CCFC1350013ED3B /* WclEmitterButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977547F51CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButton" */;
+			buildPhases = (
+				977547C91CCFC1350013ED3B /* Sources */,
+				977547CA1CCFC1350013ED3B /* Frameworks */,
+				977547CB1CCFC1350013ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WclEmitterButton;
+			productName = WclEmitterButton;
+			productReference = 977547CD1CCFC1350013ED3B /* WclEmitterButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		977547E01CCFC1360013ED3B /* WclEmitterButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977547F81CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButtonTests" */;
+			buildPhases = (
+				977547DD1CCFC1360013ED3B /* Sources */,
+				977547DE1CCFC1360013ED3B /* Frameworks */,
+				977547DF1CCFC1360013ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977547E31CCFC1360013ED3B /* PBXTargetDependency */,
+			);
+			name = WclEmitterButtonTests;
+			productName = WclEmitterButtonTests;
+			productReference = 977547E11CCFC1360013ED3B /* WclEmitterButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		977547EB1CCFC1360013ED3B /* WclEmitterButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977547FB1CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButtonUITests" */;
+			buildPhases = (
+				977547E81CCFC1360013ED3B /* Sources */,
+				977547E91CCFC1360013ED3B /* Frameworks */,
+				977547EA1CCFC1360013ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977547EE1CCFC1360013ED3B /* PBXTargetDependency */,
+			);
+			name = WclEmitterButtonUITests;
+			productName = WclEmitterButtonUITests;
+			productReference = 977547EC1CCFC1360013ED3B /* WclEmitterButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		977547C51CCFC1350013ED3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王崇磊";
+				TargetAttributes = {
+					977547CC1CCFC1350013ED3B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					977547E01CCFC1360013ED3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 977547CC1CCFC1350013ED3B;
+					};
+					977547EB1CCFC1360013ED3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 977547CC1CCFC1350013ED3B;
+					};
+				};
+			};
+			buildConfigurationList = 977547C81CCFC1350013ED3B /* Build configuration list for PBXProject "WclEmitterButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 977547C41CCFC1350013ED3B;
+			productRefGroup = 977547CE1CCFC1350013ED3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977547CC1CCFC1350013ED3B /* WclEmitterButton */,
+				977547E01CCFC1360013ED3B /* WclEmitterButtonTests */,
+				977547EB1CCFC1360013ED3B /* WclEmitterButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977547CB1CCFC1350013ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977548041CCFC3670013ED3B /* Sparkle.png in Resources */,
+				977547DB1CCFC1350013ED3B /* LaunchScreen.storyboard in Resources */,
+				977547D81CCFC1350013ED3B /* Assets.xcassets in Resources */,
+				977547D61CCFC1350013ED3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547DF1CCFC1360013ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547EA1CCFC1360013ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977547C91CCFC1350013ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977547D31CCFC1350013ED3B /* ViewController.swift in Sources */,
+				977548021CCFC1920013ED3B /* WclEmitterButton.swift in Sources */,
+				977547D11CCFC1350013ED3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547DD1CCFC1360013ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977547E61CCFC1360013ED3B /* WclEmitterButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977547E81CCFC1360013ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977547F11CCFC1360013ED3B /* WclEmitterButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977547E31CCFC1360013ED3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977547CC1CCFC1350013ED3B /* WclEmitterButton */;
+			targetProxy = 977547E21CCFC1360013ED3B /* PBXContainerItemProxy */;
+		};
+		977547EE1CCFC1360013ED3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977547CC1CCFC1350013ED3B /* WclEmitterButton */;
+			targetProxy = 977547ED1CCFC1360013ED3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		977547D41CCFC1350013ED3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977547D51CCFC1350013ED3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		977547D91CCFC1350013ED3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977547DA1CCFC1350013ED3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		977547F31CCFC1360013ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		977547F41CCFC1360013ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		977547F61CCFC1360013ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WclEmitterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		977547F71CCFC1360013ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WclEmitterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		977547F91CCFC1360013ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WclEmitterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WclEmitterButton.app/WclEmitterButton";
+			};
+			name = Debug;
+		};
+		977547FA1CCFC1360013ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WclEmitterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WclEmitterButton.app/WclEmitterButton";
+			};
+			name = Release;
+		};
+		977547FC1CCFC1360013ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WclEmitterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WclEmitterButton;
+			};
+			name = Debug;
+		};
+		977547FD1CCFC1360013ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WclEmitterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WclEmitterButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977547C81CCFC1350013ED3B /* Build configuration list for PBXProject "WclEmitterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977547F31CCFC1360013ED3B /* Debug */,
+				977547F41CCFC1360013ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977547F51CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977547F61CCFC1360013ED3B /* Debug */,
+				977547F71CCFC1360013ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977547F81CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977547F91CCFC1360013ED3B /* Debug */,
+				977547FA1CCFC1360013ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977547FB1CCFC1360013ED3B /* Build configuration list for PBXNativeTarget "WclEmitterButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977547FC1CCFC1360013ED3B /* Debug */,
+				977547FD1CCFC1360013ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 977547C51CCFC1350013ED3B /* Project object */;
+}

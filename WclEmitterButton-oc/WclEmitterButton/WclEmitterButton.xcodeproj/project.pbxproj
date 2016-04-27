@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97D774EB1CCFA3B00025C96D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D774EA1CCFA3B00025C96D /* main.m */; };
+		97D774EE1CCFA3B00025C96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D774ED1CCFA3B00025C96D /* AppDelegate.m */; };
+		97D774F11CCFA3B10025C96D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D774F01CCFA3B10025C96D /* ViewController.m */; };
+		97D774F41CCFA3B10025C96D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D774F21CCFA3B10025C96D /* Main.storyboard */; };
+		97D774F61CCFA3B10025C96D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D774F51CCFA3B10025C96D /* Assets.xcassets */; };
+		97D774F91CCFA3B10025C96D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D774F71CCFA3B10025C96D /* LaunchScreen.storyboard */; };
+		97D775041CCFA3B10025C96D /* WclEmitterButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D775031CCFA3B10025C96D /* WclEmitterButtonTests.m */; };
+		97D7750F1CCFA3B10025C96D /* WclEmitterButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750E1CCFA3B10025C96D /* WclEmitterButtonUITests.m */; };
+		97D7751F1CCFA3E70025C96D /* WclEmitterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D7751E1CCFA3E70025C96D /* WclEmitterButton.m */; };
+		97D775211CCFA4400025C96D /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D775201CCFA4400025C96D /* Sparkle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97D775001CCFA3B10025C96D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D774DE1CCFA3B00025C96D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D774E51CCFA3B00025C96D;
+			remoteInfo = WclEmitterButton;
+		};
+		97D7750B1CCFA3B10025C96D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D774DE1CCFA3B00025C96D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D774E51CCFA3B00025C96D;
+			remoteInfo = WclEmitterButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97D774E61CCFA3B00025C96D /* WclEmitterButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WclEmitterButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D774EA1CCFA3B00025C96D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97D774EC1CCFA3B00025C96D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97D774ED1CCFA3B00025C96D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97D774EF1CCFA3B00025C96D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97D774F01CCFA3B10025C96D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97D774F31CCFA3B10025C96D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97D774F51CCFA3B10025C96D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D774F81CCFA3B10025C96D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97D774FA1CCFA3B10025C96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D774FF1CCFA3B10025C96D /* WclEmitterButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WclEmitterButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D775031CCFA3B10025C96D /* WclEmitterButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WclEmitterButtonTests.m; sourceTree = "<group>"; };
+		97D775051CCFA3B10025C96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D7750A1CCFA3B10025C96D /* WclEmitterButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WclEmitterButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D7750E1CCFA3B10025C96D /* WclEmitterButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WclEmitterButtonUITests.m; sourceTree = "<group>"; };
+		97D775101CCFA3B10025C96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D7751D1CCFA3E70025C96D /* WclEmitterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WclEmitterButton.h; sourceTree = "<group>"; };
+		97D7751E1CCFA3E70025C96D /* WclEmitterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WclEmitterButton.m; sourceTree = "<group>"; };
+		97D775201CCFA4400025C96D /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97D774E31CCFA3B00025C96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D774FC1CCFA3B10025C96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D775071CCFA3B10025C96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97D774DD1CCFA3B00025C96D = {
+			isa = PBXGroup;
+			children = (
+				97D774E81CCFA3B00025C96D /* WclEmitterButton */,
+				97D775021CCFA3B10025C96D /* WclEmitterButtonTests */,
+				97D7750D1CCFA3B10025C96D /* WclEmitterButtonUITests */,
+				97D774E71CCFA3B00025C96D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97D774E71CCFA3B00025C96D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D774E61CCFA3B00025C96D /* WclEmitterButton.app */,
+				97D774FF1CCFA3B10025C96D /* WclEmitterButtonTests.xctest */,
+				97D7750A1CCFA3B10025C96D /* WclEmitterButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97D774E81CCFA3B00025C96D /* WclEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				97D7751C1CCFA3DB0025C96D /* WclEmitterButton */,
+				97D774EC1CCFA3B00025C96D /* AppDelegate.h */,
+				97D774ED1CCFA3B00025C96D /* AppDelegate.m */,
+				97D774EF1CCFA3B00025C96D /* ViewController.h */,
+				97D774F01CCFA3B10025C96D /* ViewController.m */,
+				97D774F21CCFA3B10025C96D /* Main.storyboard */,
+				97D774F51CCFA3B10025C96D /* Assets.xcassets */,
+				97D774F71CCFA3B10025C96D /* LaunchScreen.storyboard */,
+				97D774FA1CCFA3B10025C96D /* Info.plist */,
+				97D774E91CCFA3B00025C96D /* Supporting Files */,
+			);
+			path = WclEmitterButton;
+			sourceTree = "<group>";
+		};
+		97D774E91CCFA3B00025C96D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97D774EA1CCFA3B00025C96D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97D775021CCFA3B10025C96D /* WclEmitterButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				97D775031CCFA3B10025C96D /* WclEmitterButtonTests.m */,
+				97D775051CCFA3B10025C96D /* Info.plist */,
+			);
+			path = WclEmitterButtonTests;
+			sourceTree = "<group>";
+		};
+		97D7750D1CCFA3B10025C96D /* WclEmitterButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97D7750E1CCFA3B10025C96D /* WclEmitterButtonUITests.m */,
+				97D775101CCFA3B10025C96D /* Info.plist */,
+			);
+			path = WclEmitterButtonUITests;
+			sourceTree = "<group>";
+		};
+		97D7751C1CCFA3DB0025C96D /* WclEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				97D775201CCFA4400025C96D /* Sparkle.png */,
+				97D7751D1CCFA3E70025C96D /* WclEmitterButton.h */,
+				97D7751E1CCFA3E70025C96D /* WclEmitterButton.m */,
+			);
+			path = WclEmitterButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97D774E51CCFA3B00025C96D /* WclEmitterButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D775131CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButton" */;
+			buildPhases = (
+				97D774E21CCFA3B00025C96D /* Sources */,
+				97D774E31CCFA3B00025C96D /* Frameworks */,
+				97D774E41CCFA3B00025C96D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WclEmitterButton;
+			productName = WclEmitterButton;
+			productReference = 97D774E61CCFA3B00025C96D /* WclEmitterButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97D774FE1CCFA3B10025C96D /* WclEmitterButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D775161CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButtonTests" */;
+			buildPhases = (
+				97D774FB1CCFA3B10025C96D /* Sources */,
+				97D774FC1CCFA3B10025C96D /* Frameworks */,
+				97D774FD1CCFA3B10025C96D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D775011CCFA3B10025C96D /* PBXTargetDependency */,
+			);
+			name = WclEmitterButtonTests;
+			productName = WclEmitterButtonTests;
+			productReference = 97D774FF1CCFA3B10025C96D /* WclEmitterButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97D775091CCFA3B10025C96D /* WclEmitterButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D775191CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButtonUITests" */;
+			buildPhases = (
+				97D775061CCFA3B10025C96D /* Sources */,
+				97D775071CCFA3B10025C96D /* Frameworks */,
+				97D775081CCFA3B10025C96D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D7750C1CCFA3B10025C96D /* PBXTargetDependency */,
+			);
+			name = WclEmitterButtonUITests;
+			productName = WclEmitterButtonUITests;
+			productReference = 97D7750A1CCFA3B10025C96D /* WclEmitterButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97D774DE1CCFA3B00025C96D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王崇磊";
+				TargetAttributes = {
+					97D774E51CCFA3B00025C96D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					97D774FE1CCFA3B10025C96D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97D774E51CCFA3B00025C96D;
+					};
+					97D775091CCFA3B10025C96D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97D774E51CCFA3B00025C96D;
+					};
+				};
+			};
+			buildConfigurationList = 97D774E11CCFA3B00025C96D /* Build configuration list for PBXProject "WclEmitterButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97D774DD1CCFA3B00025C96D;
+			productRefGroup = 97D774E71CCFA3B00025C96D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97D774E51CCFA3B00025C96D /* WclEmitterButton */,
+				97D774FE1CCFA3B10025C96D /* WclEmitterButtonTests */,
+				97D775091CCFA3B10025C96D /* WclEmitterButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97D774E41CCFA3B00025C96D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D775211CCFA4400025C96D /* Sparkle.png in Resources */,
+				97D774F91CCFA3B10025C96D /* LaunchScreen.storyboard in Resources */,
+				97D774F61CCFA3B10025C96D /* Assets.xcassets in Resources */,
+				97D774F41CCFA3B10025C96D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D774FD1CCFA3B10025C96D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D775081CCFA3B10025C96D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97D774E21CCFA3B00025C96D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D774F11CCFA3B10025C96D /* ViewController.m in Sources */,
+				97D7751F1CCFA3E70025C96D /* WclEmitterButton.m in Sources */,
+				97D774EE1CCFA3B00025C96D /* AppDelegate.m in Sources */,
+				97D774EB1CCFA3B00025C96D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D774FB1CCFA3B10025C96D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D775041CCFA3B10025C96D /* WclEmitterButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D775061CCFA3B10025C96D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D7750F1CCFA3B10025C96D /* WclEmitterButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97D775011CCFA3B10025C96D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D774E51CCFA3B00025C96D /* WclEmitterButton */;
+			targetProxy = 97D775001CCFA3B10025C96D /* PBXContainerItemProxy */;
+		};
+		97D7750C1CCFA3B10025C96D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D774E51CCFA3B00025C96D /* WclEmitterButton */;
+			targetProxy = 97D7750B1CCFA3B10025C96D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97D774F21CCFA3B10025C96D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D774F31CCFA3B10025C96D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97D774F71CCFA3B10025C96D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D774F81CCFA3B10025C96D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97D775111CCFA3B10025C96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97D775121CCFA3B10025C96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97D775141CCFA3B10025C96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WclEmitterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97D775151CCFA3B10025C96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WclEmitterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97D775171CCFA3B10025C96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WclEmitterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WclEmitterButton.app/WclEmitterButton";
+			};
+			name = Debug;
+		};
+		97D775181CCFA3B10025C96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WclEmitterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WclEmitterButton.app/WclEmitterButton";
+			};
+			name = Release;
+		};
+		97D7751A1CCFA3B10025C96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WclEmitterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WclEmitterButton;
+			};
+			name = Debug;
+		};
+		97D7751B1CCFA3B10025C96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WclEmitterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WclEmitterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WclEmitterButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97D774E11CCFA3B00025C96D /* Build configuration list for PBXProject "WclEmitterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D775111CCFA3B10025C96D /* Debug */,
+				97D775121CCFA3B10025C96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D775131CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D775141CCFA3B10025C96D /* Debug */,
+				97D775151CCFA3B10025C96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97D775161CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D775171CCFA3B10025C96D /* Debug */,
+				97D775181CCFA3B10025C96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97D775191CCFA3B10025C96D /* Build configuration list for PBXNativeTarget "WclEmitterButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D7751A1CCFA3B10025C96D /* Debug */,
+				97D7751B1CCFA3B10025C96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97D774DE1CCFA3B00025C96D /* Project object */;
+}
