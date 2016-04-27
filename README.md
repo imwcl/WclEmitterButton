@@ -1,7 +1,7 @@
 **CAEmitterLayer**是ios5中苹果引入了一个新的CALayer子类。CAEmitterLayer是一个高性能的粒子引擎，可以用来做一些绚丽的粒子系统，比如爆炸，雪花火焰等等。
 
 - [我的CDSN](http://blog.csdn.net/wang631106979/article/details/51258020)
-- [我的个人博客](http://imwcl.com/2016/04/27/CALayer学习之CAEmitterLayer，粒子发射系统/#more)
+- [我的个人博客](http://imwcl.com/2016/04/27/CALayer学习之CAEmitterLayer，粒子发射系统)
 
 ![效果图][1]
 
