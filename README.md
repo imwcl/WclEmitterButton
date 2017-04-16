@@ -5,7 +5,7 @@
 
 ![效果图][1]
 
-##CAEmitterCell##
+## CAEmitterCell ##
 **CAEmitterCell**: CAEmitterCell是粒子发射系统里的粒子，用CAEmitterCell来定义你所需要的粒子的样式，图片，颜色，方向，运动，缩放比例和生命周期等等。
 
 - 属性列表
@@ -64,7 +64,7 @@ explosionCell.contents      = UIImage(named: "Sparkle")?.CGImage
 ```
 ----------
 
-##CAEmitterLayer##
+## CAEmitterLayer ##
 **CAEmitterLayer** ：CAEmitterLayer类提供了一个粒子发射器系统为核心的动画。这些粒子是由CAEmitterCell组成的实例，它相当于一个管理者，来管理 CAEmitterCell的发射的一些细节，比如发射的位置，发射形状等等。
 
 - 属性列表
